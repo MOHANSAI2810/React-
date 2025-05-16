@@ -7,10 +7,16 @@ import Sample from './components/Sample'
 import './sample.css'
 import Props1 from './props/Props1'
 import Props2 from './props/Props2'
+import Props3 from './props/Props3'
 
 const a ='Mohan'
 var user={
   name:'chinnu'
+}
+
+var car={
+  year:'2025',
+  color:'blue'
 }
 
 function App() {
@@ -18,6 +24,7 @@ function App() {
   <div className='App'>
     <Props1 name='pandu'/>
     <Props2 name={user.name}/>
+    <Props3 car={car}/>
     <Apple />
     <h1 class='Mohan'>I'm {a}</h1>
     <Sample />
