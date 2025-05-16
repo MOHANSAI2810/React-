@@ -8,6 +8,8 @@ import './sample.css'
 import Props1 from './props/Props1'
 import Props2 from './props/Props2'
 import Props3 from './props/Props3'
+import Statemgm from './props/Statemgm'
+import Button from './components/Button'
 
 const a ='Mohan'
 var user={
@@ -19,16 +21,13 @@ var car={
   color:'blue'
 }
 
+
+
 function App() {
  return (
   <div className='App'>
-    <Props1 name='pandu'/>
-    <Props2 name={user.name}/>
-    <Props3 car={car}/>
-    <Apple />
-    <h1 class='Mohan'>I'm {a}</h1>
-    <Sample />
-    <img className='profile' src="images/profile.jpg"/>
+    <h1>Welcome</h1>
+    <Button/>
   </div>
  ) 
 }
